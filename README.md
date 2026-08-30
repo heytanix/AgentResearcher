@@ -121,7 +121,7 @@ streamlit run app.py
 
 API keys resolve from `os.environ` first, then fall back to `st.secrets` (see `tools/config.py`) — so the same code runs unmodified locally and on Streamlit Cloud. On Streamlit Cloud, set `GEMINI_API_KEY` and `TAVILY_API_KEY` in the app's **Secrets** panel instead of a `.env` file.
 
-**Live demo:** [TODO: add deployment link]
+**Live demo:** [heytanix-agentresearcher.streamlit.app](https://heytanix-agentresearcher.streamlit.app/)
 
 ## Limitations & honesty
 
